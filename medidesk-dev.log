@@ -1,0 +1,36 @@
+
+> medidesk-nvidia@0.1.0 dev
+> next dev
+
+   ▲ Next.js 15.5.18
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.56.1:3000
+   - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 4.4s
+ ○ Compiling / ...
+ ✓ Compiled / in 1084ms (537 modules)
+ GET / 200 in 1773ms
+ GET / 200 in 699ms
+ ○ Compiling /admin/dashboard ...
+ ✓ Compiled /admin/dashboard in 3.8s (547 modules)
+ GET /admin/dashboard 200 in 6356ms
+ GET / 200 in 8745ms
+ GET /admin/dashboard 200 in 3785ms
+ GET / 200 in 2819ms
+ GET /admin/dashboard 200 in 731ms
+ GET / 200 in 1446ms
+ ○ Compiling /doctor/dashboard ...
+ ✓ Compiled /doctor/dashboard in 7.8s (559 modules)
+ GET /doctor/dashboard 200 in 11234ms
+ GET /doctor/dashboard 200 in 3059ms
+ GET / 200 in 3478ms
+ GET /doctor/dashboard 200 in 729ms
+ GET /admin/dashboard 200 in 125ms
+ GET / 200 in 83ms
+ GET / 200 in 81ms
+ GET /doctor/dashboard 200 in 487ms
+ GET /doctor/dashboard 200 in 231ms
+ GET / 200 in 99ms
+ GET /doctor/dashboard 200 in 313ms
