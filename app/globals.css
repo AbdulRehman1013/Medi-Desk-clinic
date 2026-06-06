@@ -389,6 +389,21 @@ select {
   border: 1px solid var(--border);
 }
 
+.portal-card-photo {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  margin-top: 18px;
+  border-radius: 14px;
+  border: 1px solid rgba(213, 227, 234, 0.9);
+  object-fit: cover;
+  box-shadow: 0 14px 28px rgba(22, 48, 66, 0.1);
+}
+
+.image-only-preview .portal-card-photo {
+  margin-top: 0;
+}
+
 .detail-list {
   display: grid;
   gap: 10px;

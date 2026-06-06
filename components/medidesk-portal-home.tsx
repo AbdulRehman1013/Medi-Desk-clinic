@@ -214,24 +214,17 @@ export function MediDeskPortalHome() {
               </article>
             </div>
           </div>
-          <div className="portal-preview">
-            <div className="summary-box">
-              <span>Built-in admin login</span>
-              <p>
-                Email: {demoCredentials.email}
-                <br />
-                Password: {demoCredentials.password}
-              </p>
-            </div>
-            <div className="plan-block">
-              <span>{roleDetails.title}</span>
-              <p>{roleDetails.description}</p>
-              <ul className="detail-list">
-                {roleDetails.points.map((point) => (
-                  <li key={point}>{point}</li>
-                ))}
-              </ul>
-            </div>
+          <div className="portal-preview image-only-preview">
+            <img
+              className="portal-card-photo"
+              src="/admin-login-upper.jpg"
+              alt="Doctor using a digital tablet in a clinic"
+            />
+            <img
+              className="portal-card-photo"
+              src="/admin-access-lower-clinic.png"
+              alt="Doctors reviewing a medical scan on a digital tablet"
+            />
           </div>
         </section>
 
